@@ -1,25 +1,25 @@
 [
   {
     "remote": "github",
-    "repository": "lenovo-k4note/android_device_lenovo_mt6753-common",
+    "repository": "EncryptedCicada/android_device_lenovo_mt6753-common",
     "target_path": "device/lenovo/mt6753-common",
     "branch": "pie"
   },
   {
     "remote": "github",
-    "repository": "lenovo-k4note/android_vendor_mediatek",
+    "repository": "EncryptedCicada/android_vendor_mediatek",
     "target_path": "vendor/mediatek",
     "branch": "pie"
   },
   {
     "remote": "github",
-    "repository": "lenovo-k4note/android_vendor_lenovo_k5fpr",
+    "repository": "EncryptedCicada/android_vendor_lenovo_k5fpr",
     "target_path": "vendor/lenovo/k5fpr",
     "branch": "pie"
   },
   {
     "remote": "github",
-    "repository": "lenovo-k4note/android_kernel_lenovo_k5fpr",
+    "repository": "EncryptedCicada/android_kernel_lenovo_k5fpr",
     "target_path": "kernel/lenovo/k5fpr",
     "branch": "pie"
   }

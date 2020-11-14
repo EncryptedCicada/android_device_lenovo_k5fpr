@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_k5fpr.mk
+    $(LOCAL_DIR)/havoc_k5fpr.mk
