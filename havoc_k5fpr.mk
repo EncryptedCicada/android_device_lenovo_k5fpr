@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/lenovo/k5fpr/device_k5fpr.mk)
 
 # Inherit some common Havoc stuff (Couldn't find common_full_phone.mk)
-$(call inherit-product, vendor/havoc/config/common.mk
+$(call inherit-product, vendor/havoc/config/common.mk)
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
