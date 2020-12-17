@@ -20,8 +20,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from A7010 device
 $(call inherit-product, device/lenovo/k5fpr/device_k5fpr.mk)
 
-# Inherit some common Havoc stuff (Couldn't find common_full_phone.mk)
-$(call inherit-product, vendor/havoc/config/common.mk)
+# Inherit some common PixelExperience stuff
+$(call inherit-product, vendor/aosp/config/common.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
