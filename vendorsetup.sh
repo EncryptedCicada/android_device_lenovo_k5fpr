@@ -21,5 +21,5 @@
 # function: add_lunch_combo generic-eng
 
 for var in eng user userdebug; do
-  add_lunch_combo havoc_k5fpr-$var
+  add_lunch_combo aosp_k5fpr-$var
 done

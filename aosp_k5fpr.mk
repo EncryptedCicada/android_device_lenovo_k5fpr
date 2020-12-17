@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -26,7 +26,7 @@ $(call inherit-product, vendor/havoc/config/common.mk)
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
 PRODUCT_DEVICE := k5fpr
-PRODUCT_NAME := havoc_k5fpr
+PRODUCT_NAME := aosp_k5fpr
 PRODUCT_BRAND := Lenovo
 PRODUCT_MANUFACTURER := Lenovo
 PRODUCT_MODEL := Lenovo A7010a48
