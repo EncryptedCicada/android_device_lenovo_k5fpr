@@ -26,11 +26,11 @@ include device/lenovo/mt6753-common/BoardConfigCommon.mk
 #######################################################################
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/lenovo/k5fpr/Image.gz
-PRODUCT_COPY_FILES += \
-	$(TARGET_PREBUILT_KERNEL):kernel
-#TARGET_KERNEL_SOURCE := kernel/lenovo/k5fpr
-#TARGET_KERNEL_CONFIG := k5fpr_defconfig
+#TARGET_PREBUILT_KERNEL := device/lenovo/k5fpr/Image.gz
+#PRODUCT_COPY_FILES += \
+#	$(TARGET_PREBUILT_KERNEL):kernel
+TARGET_KERNEL_SOURCE := kernel/lenovo/k5fpr
+TARGET_KERNEL_CONFIG := k5fpr_defconfig
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := A7010a48,LENOVO,k5fpr,a7010a48
